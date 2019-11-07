@@ -1,0 +1,10 @@
+{
+    "development": {
+        "username": "",
+        "password": "",
+        "API_KEY": "IAMKEY",
+        "database": "temp_database",
+        "storage": "temp_database.sqlite",
+        "dialect": "sqlite"
+    }
+}

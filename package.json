@@ -1,0 +1,42 @@
+{
+  "name": "intro_webdev_workshop_blanks",
+  "version": "1.0.0",
+  "description": "version with blanks of intro to webdev workshop",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development node index.js",
+    "nodemon": "cross-env NODE_ENV=development nodemon index.js",
+    "init_data": "node index_init_data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agatha",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "consign": "^0.1.6",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "helmet": "^3.21.2",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "semantic-ui": "^2.4.2",
+    "sequelize": "^5.21.2",
+    "sequelize-cli": "^5.5.1",
+    "sqlite": "^3.0.3",
+    "useragent": "^2.3.0",
+    "validator": "^12.0.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

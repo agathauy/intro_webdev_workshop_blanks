@@ -1,0 +1,4 @@
+node_modules/
+temp_database.sqlite
+logs/
+package-lock.json
